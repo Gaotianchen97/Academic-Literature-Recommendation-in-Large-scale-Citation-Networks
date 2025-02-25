@@ -8,7 +8,7 @@ The file `citation_network.csv` contains the citation relationships between arti
 |  Col Name  | Data Type | Description |
 |-------------|------------|-------------|
 | `source`      |     String    | The ID of the citing article (the article that makes the citation). |
-| `target`      |     String    | The ID of the cited article (the article that is being cited). |
+| `target`      |     String   | The ID of the cited article (the article that is being cited). |
 
 
 ## paper_info.csv
@@ -24,6 +24,8 @@ The file `paper_info.csv` contains detailed information about each article in th
 | `year`         | Integer    | Publication year of the article. |
 
 ## embedding data
+
+The embedding data of the abstract is stored in the cloud drive and can be accessed via the following link:
 
 
 
