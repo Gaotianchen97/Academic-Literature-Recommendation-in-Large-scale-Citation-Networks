@@ -17,7 +17,7 @@ The file `article_info.xlsx` contains detailed information about each article in
 
 | Column Name | Data Type | Description |
 |-------------|-----------|-------------|
-| `id`             | String       | Unique identifier for each article. |
+| `paper_ID`             | String       | Unique identifier for each article. |
 | `title`          | String       | Title of the article. |
 | `publisher` | String       | Publisher of the article. |
 | `abstract`   | String       | Abstract of the article. |
