@@ -3,7 +3,7 @@ This repository shares the data from the paper “Academic Literature Recommenda
 
 ## citation_network.csv
 
-The file `citation_network.csv` contains the citation relationships between articles in the citation network. It can be used to construct a directed graph where each article is a node, and each citation is a directed edge from the citing article to the cited article. This file can be used to construct a directed citation network using graph analysis tools such as NetworkX in Python. The `source` and `target` IDs correspond to the `paper_ID` column in the `paper_info.csv` file.
+The file `citation_network.csv` contains the citation relationships between articles in the citation network. It can be used to construct a directed graph where each article is a node, and each citation is a directed edge from the citing article to the cited article. This file can be used to construct a directed citation network using graph analysis tools such as NetworkX in Python. The `source` and `target` IDs correspond to the `paper_ID` column in the `article_info.xlsx` file.
 
 |  Col Name  | Data Type | Description |
 |-------------|------------|-------------|
@@ -11,9 +11,9 @@ The file `citation_network.csv` contains the citation relationships between arti
 | `target`      |     String   | The ID of the cited article (the article that is being cited). |
 
 
-## paper_info.csv
+## article_info.xlsx
 
-The file `paper_info.csv` contains detailed information about each article in the citation network. It provides metadata such as article titles, publishers, abstracts, and publication year, which can be used to enrich the citation network analysis. This dataset contains 190,381 articles from 70 journals, covering statistics, econometrics, and computer science, spanning from 1981 to 2022. The `id` column in this file corresponds to the `source` and `target` columns in the `citation_network.csv` file.
+The file `article_info.xlsx` contains detailed information about each article in the citation network. It provides metadata such as article titles, publishers, abstracts, and publication year, which can be used to enrich the citation network analysis. This dataset contains 190,381 articles from 70 journals, covering statistics, econometrics, and computer science, spanning from 1981 to 2022. The `id` column in this file corresponds to the `source` and `target` columns in the `citation_network.csv` file.
 
 | Column Name | Data Type | Description |
 |-------------|-----------|-------------|
@@ -22,10 +22,6 @@ The file `paper_info.csv` contains detailed information about each article in th
 | `publisher` | String       | Publisher of the article. |
 | `abstract`   | String       | Abstract of the article. |
 | `year`         | Integer    | Publication year of the article. |
-
-## embedding data
-
-The embedding data of the abstract is stored in the cloud drive and can be accessed via the following link:
 
 
 
