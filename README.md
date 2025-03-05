@@ -1,7 +1,7 @@
 # Academic-Literature-Recommendation-in-Large-scale-Citation-Networks
 This repository shares the data from the paper “Academic Literature Recommendation in Large-scale Citation Networks Enhanced by Large Language Models” authored by Kun Liu, Yan Zhang, Rui Pan, Tianchen Gao, and Hansheng Wang.
 
-If citation is needed, please follow the format below,
+If you use the data, please cite our paper.
 
 @misc{liu2025academicliteraturerecommendationlargescale,
       title={Academic Literature Recommendation in Large-scale Citation Networks Enhanced by Large Language Models}, 
