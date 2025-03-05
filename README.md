@@ -1,4 +1,4 @@
-# large-sacle Citation Network in Statistics 
+# Large-sacle Citation Network in Statistics 
 This repository shares the data from the paper “Academic Literature Recommendation in Large-scale Citation Networks Enhanced by Large Language Models” authored by Kun Liu, Yan Zhang, Rui Pan, Tianchen Gao, and Hansheng Wang.
 
 If you use the data, please cite our paper.
