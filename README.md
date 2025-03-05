@@ -10,7 +10,7 @@ If you use the data, please cite our paper.
       eprint={2503.01189},
       archivePrefix={arXiv},
       primaryClass={stat.AP},
-      url={https://arxiv.org/abs/2503.01189}, 
+      url={https://arxiv.org/abs/2503.01189}
 }
 
 ## citation_network.csv
