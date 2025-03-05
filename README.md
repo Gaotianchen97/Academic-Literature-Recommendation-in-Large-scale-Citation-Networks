@@ -1,6 +1,18 @@
 # Academic-Literature-Recommendation-in-Large-scale-Citation-Networks
 This repository shares the data from the paper “Academic Literature Recommendation in Large-scale Citation Networks Enhanced by Large Language Models” authored by Kun Liu, Yan Zhang, Rui Pan, Tianchen Gao, and Hansheng Wang.
 
+If citation is needed, please follow the format below,
+
+@misc{liu2025academicliteraturerecommendationlargescale,
+      title={Academic Literature Recommendation in Large-scale Citation Networks Enhanced by Large Language Models}, 
+      author={Kun Liu and Yan Zhang and Rui Pan and Tianchen Gao and Hansheng Wang},
+      year={2025},
+      eprint={2503.01189},
+      archivePrefix={arXiv},
+      primaryClass={stat.AP},
+      url={https://arxiv.org/abs/2503.01189}, 
+}
+
 ## citation_network.csv
 
 The file `citation_network.csv` contains the citation relationships between articles in the citation network. It can be used to construct a directed graph where each article is a node, and each citation is a directed edge from the citing article to the cited article. This file can be used to construct a directed citation network using graph analysis tools such as NetworkX in Python. The `source` and `target` IDs correspond to the `paper_ID` column in the `article_info.xlsx` file.
